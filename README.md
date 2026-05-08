@@ -2,7 +2,7 @@
 
 **Discovery:** Rotary Position Embeddings (RoPE) computed in bfloat16 cause deterministic NaN gradients during large language model training, consistently appearing between steps 5,000–6,000 across independent restarts.
 
-**Author:** Atharva Shewale, Age 15, Pune, India  
+**Author:** Atharva Shewale, Pune, India  
 **Project:** MAX — A 9.13B parameter language model trained from scratch on Google TPUs  
 **Date:** 2026
 
@@ -172,6 +172,6 @@ GitHub: https://github.com/AsphaltProAT/rope-float32-fix
 
 ## Context
 
-This bug was discovered during the training of MAX — a personal AI assistant built entirely from scratch by a 15-year-old student in Pune, India. The project involves a custom 65k vocabulary BPE tokenizer, a GPT-style transformer trained on Google TPUs via the TRC (TPU Research Cloud) program, and a complete application layer.
+This bug was discovered during the training of MAX — a personal AI assistant built entirely from scratch. The project involves a custom 65k vocabulary BPE tokenizer, a GPT-style transformer trained on Google TPUs via the TRC (TPU Research Cloud) program, and a complete application layer.
 
 This repository documents the specific numerical precision bug discovered and fixed during that training process.
