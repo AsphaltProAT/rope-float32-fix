@@ -122,7 +122,7 @@ Step 300,000:  training stable, loss continuing to decrease
  step=1087450 | loss=5.2436 | lr=2.79e-04 |
 ```
 
-Training remained stable past 300,000 steps with no NaN recurrence.
+Training remained stable past 1M+ steps with no NaN recurrence.
 
 ---
 
