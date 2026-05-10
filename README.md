@@ -2,7 +2,7 @@
 
 **Discovery:** Rotary Position Embeddings (RoPE) computed in bfloat16 cause deterministic NaN gradients during large language model training, consistently appearing between steps 5,000–6,000 across independent restarts.
 
-**Author:** Prashant Shewale, Pune, India  
+**Author:** Atharva Shewale, Pune, India  
 **Project:** MAX — A 9.13B parameter language model trained from scratch on Google TPUs  
 **Date:** 2026
 
@@ -164,7 +164,7 @@ rope-float32-fix/
 If this fix or analysis helps your research, please cite:
 
 ```
-Shewale, P. (2026). RoPE Float32 Precision Fix in Large Language Model Training.
+Shewale, A. (2026). RoPE Float32 Precision Fix in Large Language Model Training.
 GitHub: https://github.com/AsphaltProAT/rope-float32-fix
 ```
 
