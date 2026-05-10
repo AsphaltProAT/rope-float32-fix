@@ -106,6 +106,21 @@ Step  80,000:  val_loss = 3.18
 Step 100,000:  training stable, no NaN
 Step 300,000:  training stable, loss continuing to decrease
 ```
+**After fix — training log (1M+ steps):**
+```
+ step=1086900 | loss=4.5201 | lr=2.79e-04 |
+ step=1086950 | loss=4.9723 | lr=2.79e-04 |
+ step=1087000 | loss=5.4408 | lr=2.79e-04 |
+ step=1087050 | loss=6.1822 | lr=2.79e-04 |
+ step=1087100 | loss=5.0021 | lr=2.79e-04 |
+ step=1087150 | loss=4.9278 | lr=2.79e-04 |
+ step=1087200 | loss=5.8500 | lr=2.79e-04 |
+ step=1087250 | loss=4.7644 | lr=2.79e-04 |
+ step=1087300 | loss=3.7331 | lr=2.79e-04 |
+ step=1087350 | loss=6.6738 | lr=2.79e-04 |
+ step=1087400 | loss=4.4749 | lr=2.79e-04 |
+ step=1087450 | loss=5.2436 | lr=2.79e-04 |
+```
 
 Training remained stable past 300,000 steps with no NaN recurrence.
 
