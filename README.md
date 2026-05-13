@@ -160,6 +160,9 @@ Models using PyTorch with automatic mixed precision (AMP) may be partially prote
 The fix is simple, costs negligible memory (cos/sin tensors are small relative to model weights), and eliminates a class of training instability that is difficult to diagnose because the NaN appears thousands of steps after the root cause.
 
 ---
+## Note-
+Data and tokenizer are streamed from private gcs buckets for IP protection. To run locally, update train_7b.py and data.py with your own tokenizer and gcs bucket respectively.
+---
 
 ## Repository Structure
 
